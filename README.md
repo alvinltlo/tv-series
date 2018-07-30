@@ -1,8 +1,10 @@
 # TV Series Search
 The app allow users to search information about a TV series.
 
-The code is based on an online class (React Fundamentals) I took from udemy - https://www.udemy.com/react-fundamentals/learn/v4/overview.
-I made some modification to use icon from https://fontawesome.com/ and deploy it to heroku.
+- The code is based on an online class (React Fundamentals) I took from udemy - https://www.udemy.com/react-fundamentals/learn/v4/overview.
+- I made some modification to use icon from https://fontawesome.com/ and deploy it to heroku.
+
+![alt text](https://github.com/alvinltlo/tv-series/blob/master/public/screenshot.png)
 
 ## Getting Started
 
