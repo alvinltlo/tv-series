@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Loader from '../../components/Loader';
 import SerieDetail from '../../components/SeriesDetail';
+import { Link } from 'react-router-dom';
 
 class SingleSeries extends Component {
   state = {
@@ -23,6 +24,9 @@ class SingleSeries extends Component {
           &&
           <SerieDetail showDetail={this.state.show}/>
         }
+        <Link to={`/`}>
+          back
+        </Link>
       </div>
     )
   }

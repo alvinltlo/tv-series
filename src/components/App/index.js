@@ -30,8 +30,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <FontAwesomeIcon icon="tv" size='5x' />
-          <h1 className="App-title">TV Series List</h1>
+          <span className="h4"><FontAwesomeIcon icon="tv" size="s"/> TV Series List</span>
         </header>
            <Main />
       </div>

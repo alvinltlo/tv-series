@@ -42,14 +42,15 @@ class Series extends Component {
       //<div>Series container  The length of series array - {this.state.series.length}
       <div>
         <Intro message="Here you can find all of your most loved series"/>
-      <div>
-        <input value={seriesName} type="text" onChange={this.onSeriesInputChange}/>
-      </div>
+
       {
         !isFetching && series.length === 0 && seriesName.trim() ===''
         &&
-        <p>Please enter series name into the input</p>
+        <p>Please enter series name into the input:</p>
       }
+      <div>
+        <input value={seriesName} type="text" onChange={this.onSeriesInputChange}/>
+      </div>
       {
         !isFetching && series.length === 0 && seriesName.trim() !==''
         &&
